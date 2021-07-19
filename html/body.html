@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page de conexion</title>
+</head>
+<body>
+    <h1> Accueil</h1>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="identifiant">identifiant :</label>
+            <input type="text" id="identifiant" name="user_identifiant" placeholder="Veuillez saisir votre identifiant">
+        </div>
+        <div>
+            <label for="password">mot de passe :</label>
+            <input type="password" id="password" name="use_password" placeholder="Veuillez saisir votre mot de passe"> 
+           
+        </div>
+        <div class="button">
+            <button type="submit">Valider !</button>
+        </div>
+
+        <div id="divdate">
+            <label for="date">date :</label>
+            <input type="datetime-local" id="date" name="date" placeholder="Veuillez selectioner le nom de de votre formation"> 
+           
+        </div> 
+
+        <div id="dividentifiant">
+            <label for="description">description de la formation:</label>
+            <TEXTAREA name="nom" rows=4 cols=40>Valeur par défaut</TEXTAREA>
+            <input type="text" id="description" name="description" value="Veuillez saisir votre nom de formation">
+        </div> 
+
+      
+    </form>
+</body>
+</html>

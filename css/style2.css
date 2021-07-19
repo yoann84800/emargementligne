@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+ #f {
+  	text-align: center;
+	
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	color: #6ecada;
+	padding: 5%;
+	
+	margin-right: 100ev;
+	border-radius: 28px;
+background: #0b4951;
+box-shadow:  7px 7px 14px #08353a,
+             -7px -7px 14px #0e5d68;
+  }
+  
+  body {
+ 
+ background-color: #0c3c60;
+  
+  
+  }
+
+  #dividentifiant {
+
+padding-right: 2px;
+
+
+  }
+  
+  #dividentifiant, #dated, #datef {
+  
+  font-size: 2ev;
+
+    width: 38%;
+    height: 10;
+    margin:  2px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    color: #6ecada;
+	}
+	#divdescription {
+	
+	 
+  font-size: 2ev;
+
+    width: 38%;
+    height: 10;
+    margin:  2px;
+ 
+    align-items: center;
+    text-align: center;
+    color: rgb(128, 255, 0);
+	
+	
+	
+	}
